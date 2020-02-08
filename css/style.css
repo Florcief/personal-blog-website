@@ -1,0 +1,40 @@
+/* Syte Styles */
+
+@import "header.css";
+@import "recipes.css";
+@import "footer.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-size: 26px;
+    font-family: helvetica;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+main {
+    grid-area: main;
+    display: grid;
+}
+
+.grid-container {
+    width: 98%;
+    margin: 0 auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "hd" "main" "ft";
+}
+
+@media (min-width: 1440px) {
+    .grid-container {
+        width: 1440px;
+    }
+}

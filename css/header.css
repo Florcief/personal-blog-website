@@ -1,0 +1,33 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Sriracha&display=swap");
+
+/* header styles */
+header h1 {
+    grid-area: hd;
+    text-align: center;
+    font-family: "Sriracha", cursive;
+}
+
+header nav {
+    grid-area: hd;
+    font-size: 0.7em;
+    background-color: #6d6b6b;
+    color: #fff;
+    padding: 2em 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    width: 320px;
+}
+
+nav ul li a {
+    color: #fff;
+}
